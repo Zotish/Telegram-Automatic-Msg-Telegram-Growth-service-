@@ -18,3 +18,12 @@ frontend/build/
 
 # OS
 .DS_Store
+
+# Data files
+backend/data.pdf
+backend/data.txt
+frontend/frontend.log
+
+# IDE & Claude
+.claude/
+.vscode/
