@@ -1,0 +1,22 @@
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.venv/
+venv/
+env/
+
+# Secrets
+.env
+
+# Runtime data
+*.log
+*.db
+sessions/
+
+# Local input/output artifacts
+data.pdf
+data.txt

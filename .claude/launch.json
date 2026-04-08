@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Frontend (React)",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["start"],
+      "cwd": "frontend",
+      "port": 3000
+    },
+    {
+      "name": "Backend (FastAPI)",
+      "runtimeExecutable": "/Users/zotishchandra/Desktop/all in one/tgmsg/backend/.venv/bin/python3",
+      "runtimeArgs": ["-m", "uvicorn", "main:app", "--reload", "--host", "127.0.0.1", "--port", "8000"],
+      "cwd": "/Users/zotishchandra/Desktop/all in one/tgmsg/backend",
+      "port": 8000
+    }
+  ]
+}

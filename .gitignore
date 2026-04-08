@@ -1,0 +1,20 @@
+# Python
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/*.log
+
+# Sensitive — DB & Sessions
+backend/automation.db
+backend/sessions/
+
+# Environment variables
+backend/.env
+frontend/.env
+
+# Node
+frontend/node_modules/
+frontend/build/
+
+# OS
+.DS_Store
